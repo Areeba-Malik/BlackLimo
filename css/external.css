@@ -1,0 +1,471 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.mail{
+    width: 18px;
+    height: 15px;
+    padding-left: 53px;
+}
+
+table{
+    border:"0";
+    width:"100%";
+    height:"10%";
+    color: white;
+}
+
+td{
+    width:"14.28%";
+    text-align: center;
+}
+
+.zoom
+{
+transition:transform 0.5s;
+}
+
+.table{
+    border: none;
+}
+
+.zoom:hover
+{
+transform:scale(1.2);
+}
+
+.reservation {
+background-color: #0096FF;
+width: 371px;
+height: 369px;
+padding-top: 112px;
+font-size: 24px;
+  font-family: "Oswald";
+  color: rgb(255, 255, 255);
+}
+
+#reservationNow{
+    font-size: 20px;
+  font-family: "Lato";
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+.reservationText{
+    text-align: center;
+    font-size: 12px;
+  font-family: "LaoUI";
+  color: rgb(255, 255, 255);
+}
+
+#read{
+    background-color: white;
+    color: #0096FF;
+    border: none;
+}
+
+.whoweare{
+    text-align: center;
+    background-color: #101010;
+    margin-top: 104px;
+    font-size: 40px;
+    font-family: "Raleway";
+}
+
+.whoweareText{
+    font-size: 12px;
+  font-family: "LaoUI";
+  color: rgb(255, 255, 255);
+}
+
+#seeVehicles{
+    background-color: #0096FF;
+    color: white;
+    font-size: 20px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+}
+
+.quote{
+    background-color: white;
+    color: black;
+    display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ padding-left: 100px;
+ padding-right: 0px;
+}
+
+.phone {
+    width: 15px;
+    height: 15px;
+    padding-left: 55px;
+  }
+
+  .phoneText{
+        line-height: 1.2;
+        position: relative;
+        left: 7px;
+        top: -12px;
+        font-size: 14px;
+  font-family: "Lato";
+  color: rgb(141, 141, 141);
+}
+
+.mailText{
+    position: relative;
+        left: 7px;
+        top: -16px;
+        font-size: 14px;
+        font-family: "Lato";
+        color: rgb(141, 141, 141);
+}
+
+.socialMedia{
+    position: relative;
+    left: 500px;
+    width: 26px;
+    height: 20px;
+    border: 1px solid #0096FF ;
+}
+
+.socialMedia1{
+    width: 26px;
+    height: 20px;
+    position: relative;
+    left: 510px;
+    border: 1px solid #0096FF ;
+}
+
+.socialMedia2{
+    width: 26px;
+    height: 20px;
+    position: relative;
+    left: 520px;
+    border: 1px solid #0096FF ;
+}
+
+.socialMedia3{
+    width: 26px;
+    height: 20px;
+    position: relative;
+    left: 530px;
+    border: 1px solid #0096FF ;
+}
+
+.aside{
+    display: flex;
+    flex-wrap:wrap;
+    }
+  
+.image1{
+    width: 1140px;
+    height: 686px;
+}
+
+#classMercedes{
+    background: url('..//img/rectangle_74.png');
+    background-repeat: no-repeat;
+    font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+}
+
+.readMore{
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+  font-family: "Lato";
+  color: rgb(9, 160, 247);
+
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+}
+
+.Subscribe{
+    background-color: #101010;
+    color: white;
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(80, 80, 80);
+    text-align: center;
+    position: relative;
+    left: 310px;
+}
+
+input{
+    text-align: center;
+    position: relative;
+    left: 300px;
+}
+
+value{
+    padding-left: 50%;
+}
+
+
+.value_input{
+    background-color: black;
+    color: gray;
+    font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb(66, 65, 65);
+}
+
+.header1{
+    font-family: Oswald, sans-serif;
+ font-size: 16px; 
+ color: rgb(9, 160, 247);
+ border: 1px solid #0096FF;
+ position: relative;
+ left: 575px;
+ bottom: 22px;
+}
+
+.header2{
+    font-family: Oswald, sans-serif;
+ font-size: 16px; 
+ color: white;
+ position: relative;
+ left: 600px;
+ bottom: 22px;
+}
+
+.header3{
+    font-family: Oswald, sans-serif;
+ font-size: 16px; 
+ color: white;
+ position: relative;
+ left: 625px;
+ bottom: 22px;
+}
+
+.header4{
+    font-family: Oswald, sans-serif;
+ font-size: 16px; 
+ color: white;
+ position: relative;
+ left: 650px;
+ bottom: 22px;
+}
+
+.header5{
+    font-family: Oswald, sans-serif;
+ font-size: 16px; 
+ color: white;
+ position: relative;
+ left: 675px;
+ bottom: 22px;
+}
+
+.header6{
+    font-family: Oswald, sans-serif;
+ font-size: 16px; 
+ color: white;
+ position: relative;
+ left: 700px;
+ bottom: 22px;
+}
+
+.header7{
+    font-family: Oswald, sans-serif;
+ font-size: 16px; 
+ color: white;
+ position: relative;
+ left: 725px;
+ bottom: 22px;
+}
+
+.BlackLimo{
+    padding-left: 22px;
+}
+
+.location{
+    padding-left: 0px;
+    width: 1140px;
+    height: 701px;
+}
+
+.logo{
+    width: 208px;
+    height: 57px;
+    padding-left: 100px;
+}
+
+.carSupport{
+    width: 371px;
+height: 369px;
+background-color: #101010;
+display: flex;
+justify-content: center;
+  align-items: center;
+  padding-top: 112px;
+  font-size: 24px;
+  font-family: "Oswald";
+  color: rgb(254, 254, 254);
+}
+
+.lot_of_location_Text{
+    width: 371px;
+height: 369px;
+background-color: #101010;
+display: flex;
+justify-content: center;
+  align-items: center;
+  padding-top: 112px;
+  font-size: 24px;
+  font-family: "Oswald";
+  color: rgb(255, 255, 255);
+}
+
+.Awesome_fleet {
+    font-size: 40px;
+    font-family: "Myriad Pro";
+    color: rgb(45, 48, 51);
+    text-align: center;
+}
+
+/*.image_mercedes{
+    width: 854px;
+    height: 425px;
+}*/
+
+.Executive_Sedan{
+    font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(132, 132, 132);
+}
+
+.Vauxhall{
+    font-size: 16px;
+  font-family: "Raleway";
+  color: rgb(132, 132, 132);
+}
+
+.Executive_SUV{
+    font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(132, 132, 132);
+}
+
+.Limosine{
+    font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(132, 132, 132);
+}
+
+.container{
+    display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ padding-left: 40px;
+}
+
+.image10{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.recentBlogPosts{
+    font-size: 40px;
+    font-family: "Myriad Pro";
+    color: rgb(45, 48, 51);
+    text-align: center;
+}
+
+.Luxury_Hire{
+    width: 378px;
+    height: 215px;
+}
+
+.Party{
+    width: 378px;
+    height: 215px;
+}
+
+.Executive_Hire{
+    width: 378px;
+    height: 215px;
+}
+
+.calendar{
+    width: 16px;
+    height: 18px;
+    padding-left: 10px;
+}
+
+.edit{
+    width: 21px;
+    height: 11px;
+}
+
+.message{
+    width: 12px;
+    height: 11px;
+}
+
+.class4{
+    font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb(192, 192, 192);
+}
+
+.admin{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(192, 192, 192);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.date{
+    font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb(192, 192, 192);
+  padding-right: 30px;
+}
+
+.headings{
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(192, 192, 192);
+}
+
+.follow{
+    font-size: 40px;
+  font-family: "Myriad Pro";
+  color: rgb(45, 48, 51);
+  text-align: center;
+}
+
+.dummy{
+    font-size: 14px;
+  font-family: "Lato";
+  color: rgb(165, 164, 164);
+  text-align: center;
+}
+
+.media{
+    padding-top: 50px;
+    padding-left: 300px;
+    width: 130px;
+    height: 50px;
+}
+
+.media1{
+    padding-left: 10px;
+    width: 130px;
+    height: 50px;
+}
+
+.copyright{
+    font-size: 16px;
+  font-family: "Lato";
+  color: rgb(127, 127, 127);
+  text-align: center;
+}
